@@ -1,0 +1,14 @@
+name: Cowsay
+description: $description
+version: '${version}'
+
+main: com.rensjam.cowsay.Cowsay
+api-version: '26.1.2'
+load: POSTWORLD
+
+authors: [ RensJAM ]
+
+commands:
+  cowsay:
+    usage: /cowsay <message>
+    description: "The linux command 'cowsay' remade in a paper minecraft plugin."
